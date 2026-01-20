@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thư mời Tất Niên CLB Thanh Trì - Xuân 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <audio id="bgMusic" loop>
+    <source src="./assets/nhac-tet.mp3" type="audio/mpeg">
+  </audio>
+
+  <canvas id="fireworks"></canvas>
+
+  <div class="bg-pattern"></div>
+
+  <div id="envelope-overlay">
+    <div class="curtain-panel panel-left"></div>
+    <div class="curtain-panel panel-right"></div>
+
+    <div class="envelope-content-wrapper">
+      <div class="envelope-container">
+        <div class="stamp">🧧</div>
+        <div class="env-title">THƯ MỜI TẤT NIÊN</div>
+        <div class="pulse-btn" id="openBtn">
+          ✨ Mở Thư Mời ✨
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="content" class="hidden">
+    
+    <div class="petals-container">
+      <span>🌸</span><span>🌼</span><span>🌸</span><span>🌼</span><span>🌸</span><span>🌼</span>
+    </div>
+
+    <div class="invite-card">
+      <div class="corner-decor top-left"></div>
+      <div class="corner-decor top-right"></div>
+      <div class="corner-decor bottom-left"></div>
+      <div class="corner-decor bottom-right"></div>
+
+      <div class="floating-decor horse">🐎</div>
+      <div class="floating-decor ball">⚽</div>
+
+      <div class="header animate-item">
+        <p class="sub-header">CLB BÓNG ĐÁ THÔN THANH TRÌ</p>
+        <h1>Thư Mời Tất Niên</h1>
+        <div class="year-badge">XUÂN BÍNH NGỌ 2026</div>
+      </div>
+
+      <div class="body">
+        <div class="left animate-item delay-1">
+          <p class="text">
+             Để nhìn lại chặng đường hoạt động trong năm qua và chào đón một năm mới
+          với nhiều thắng lợi mới, Ban Chủ nhiệm CLB Bóng đá thôn Thanh Trì
+          trân trọng kính mời Quý vị/Anh/Em tới tham dự buổi Tiệc Tất Niên thân mật.
+          </p>
+          
+          <div class="info-box">
+            <div class="info-row">
+              <span class="icon">📅</span> 
+              <span><b>Thứ Bảy, 31/01/2026</b> (13/12 Âm lịch)</span>
+            </div>
+            <div class="info-row">
+              <span class="icon">⏰</span> 
+              <span><b>16:00</b> chiều</span>
+            </div>
+            <div class="info-row">
+              <span class="icon">📍</span> 
+              <span><b>Nhà văn hóa thôn Thanh Trì</b></span>
+            </div>
+          </div>
+
+          <p class="sign">TM. Ban Chủ Nhiệm <br> <span class="signature">Kính mời!</span></p>
+        </div>
+
+        <div class="right animate-item delay-2">
+          <h3>CHƯƠNG TRÌNH</h3>
+          <ul class="timeline">
+            <li>
+              <span class="time">16:00</span>
+              <span class="event">Văn nghệ & Ca nhạc 🎸</span>
+            </li>
+            <li>
+              <span class="time">18:00</span>
+              <span class="event">Khai mạc & MC giới thiệu 🎤</span>
+            </li>
+            <li>
+              <span class="time">18:15</span>
+              <span class="event">Nhập tiệc & Giao lưu 🍻</span>
+            </li>
+            <li>
+              <span class="time">20:30</span>
+              <span class="event">DJ & Dancer 💃</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="photo-row animate-item delay-3">
+        <div class="polaroid"><img src="./assets/anhlienhoan.jpg"></div>
+        <div class="polaroid"><img src="./assets/lienhoan.jpg"></div>
+        <div class="polaroid"><img src="./assets/hoan.jpg"></div>
+        <div class="polaroid"><img src="./assets/anh.jpg"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
